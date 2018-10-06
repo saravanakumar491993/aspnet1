@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller Uri="http://localhost:59181/AutoBuild3.appinstaller" Version="1.0.5.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+  <MainBundle Name="b09d3ac4-4794-4aa2-85f6-0689eab2df6c" Version="1.0.5.0" Publisher="CN=saravana-3543" Uri="http://localhost:59181/AutoBuild3_1.0.5.0_Test/AutoBuild3_1.0.5.0_x64.appxbundle" />
+  <Dependencies>
+    <Package Name="Microsoft.NET.Native.Framework.2.1" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="2.1.26424.0" ProcessorArchitecture="x64" Uri="http://localhost:59181/AutoBuild3_1.0.5.0_Test/Dependencies/x64/Microsoft.NET.Native.Framework.2.1.appx" />
+    <Package Name="Microsoft.NET.Native.Runtime.2.1" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="2.1.26424.0" ProcessorArchitecture="x64" Uri="http://localhost:59181/AutoBuild3_1.0.5.0_Test/Dependencies/x64/Microsoft.NET.Native.Runtime.2.1.appx" />
+    <Package Name="Microsoft.VCLibs.140.00" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="14.0.25426.0" ProcessorArchitecture="x64" Uri="http://localhost:59181/AutoBuild3_1.0.5.0_Test/Dependencies/x64/Microsoft.VCLibs.x64.14.00.appx" />
+  </Dependencies>
+  <UpdateSettings>
+    <OnLaunch HoursBetweenUpdateChecks="0" />
+  </UpdateSettings>
+</AppInstaller>
